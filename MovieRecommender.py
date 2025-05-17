@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 def read_data():
-    df=pd.read_csv("MovieRecommender/tmdb_5000_movies.csv")
+    df=pd.read_csv("tmdb_5000_movies.csv")
     return df
 
 def calculate_weighted_ratings(df):
